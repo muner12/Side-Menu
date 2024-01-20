@@ -78,7 +78,7 @@ useEffect(()=>{
 },[pathname])
   return (
     <div>
-    <div onClick={()=>isSetOpen(false)} className={`md:hidden fixed inset-0 max-h-screen z-[998]
+    <div onClick={()=>isSetOpen(false)} className={`md:hidden  fixed inset-0 max-h-screen z-[998]
     bg-black/50  ${isOpen?'block':'hidden'}`}></div>
       <motion.div
         variants={sidebar_animation}

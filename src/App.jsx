@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import './App.css'
 import Dashbaord from './pages/Dashbaord'
-import RootLayout from './layouts2/RootLayout'
+import RootLayout from './layouts/RootLayout'
 import { Route, Routes } from 'react-router-dom'
 import AllPage from './pages/AllPage'
 import Authenthication from './pages/Authenthication';

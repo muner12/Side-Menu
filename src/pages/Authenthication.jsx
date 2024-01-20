@@ -1,8 +1,11 @@
 import React from 'react'
+import PhoneOtpForm from '../components/PhoneOtpForm.jsx'
 
 function Authenthication() {
   return (
-    <div>OTP Verifications</div>
+    <div>
+    <PhoneOtpForm/>
+    </div>
   )
 }
 
